@@ -2,7 +2,7 @@
 
 # Shortcut for Apple Shortcuts
 
-**[Open with Ladder](https://www.icloud.com/shortcuts/f596e509ca644429bacb395002716326)** for Apple Shortcuts allows a user to easily use the share sheet to redirect a blocked URL to their instance of Ladder.
+**[Open with Ladder](https://www.icloud.com/shortcuts/f596e509ca644429bacb395002716326)** for Apple Shortcuts allows a user to easily use the share sheet to redirect a blocked URL to their instance of [Ladder] or [Ladderflare].
 
 When a URL is shared, the shortcut generates a new URL to open it in Ladder: \
 `https://[domain name for Ladder]/[original URL]`
@@ -12,9 +12,9 @@ When the shortcut is run with a URL, a <nobr>[URL in ladder-rules][search]</nobr
 
 ## Add Shortcut
 
-### [Get Shortcut][iCloud] `icloud.com`
+### [Get Shortcut][iCloud] on `iCloud.com`
 
-### [Download Shortcut][file] `.shortcut`
+### [download `.shortcut` file][file]
 
 [iCloud]: //www.icloud.com/shortcuts/f596e509ca644429bacb395002716326 "open shared iCloud link"
 [file]: <./Open with Ladder.shortcut> "download .shortcut file"
@@ -39,6 +39,8 @@ Apple Shortcuts nolonger directly supports importing unsigned shortcuts or shorc
    macOS: signs shortcuts locally \
    iOS: signs shortcuts with [Remote Sign][worker] (service run by shortcut develoepr [gluebyte][profile])
 
+[Ladder]: https://github.com/everywall/ladder
+[Ladderflare]: https://github.com/andesco/ladder
 [worker]: http://shortcuts.gluebyte.workers.dev 
 [profile]: https://routinehub.co/user/gluebyte 
 
